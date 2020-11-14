@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ==========================================================================
+    Declaracion de variables
+========================================================================== */
+
+:root {
+    --color-navar: #71AA00;
+    --color-principal: ;
+    --color-letras: #6B6B6B;
+    --color-Fondo: #D9D9D9;
+}
+
+/* ==========================================================================
+    Globales
+========================================================================== */
+
+html {
+    background-color: var(--color-Fondo);
+}
+
+/* ==========================================================================
+    Navar
+========================================================================== */
+
+.navar {
+    background-color: var(--color-navar);
+    height: 70px;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.75);
+}
