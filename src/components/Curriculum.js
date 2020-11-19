@@ -1,4 +1,5 @@
 import React from 'react'
+import { Header } from './Header'
 import { Navar } from './Navar'
 
 
@@ -7,6 +8,7 @@ export const Curriculum = () => {
         <div>
             <Navar />
             
+            <Header />
         </div>
     )
 }
